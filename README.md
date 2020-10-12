@@ -13,8 +13,11 @@ An Anime inspired Discord Bot created to perform various Anime related tasks inc
 RUNNING COMMANDS:
 <br>
 <b>All Commands are triggered with ' !command "arg" '</b>
+<br>
 So for example:
+<br>
 !anime "Mob Psycho 100"
+<br>
 Would give you the MAL page for Mob Psycho
 
 <hr>
