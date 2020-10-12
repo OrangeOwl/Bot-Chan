@@ -15,11 +15,12 @@ RUNNING COMMANDS:
 <b>All Commands are triggered with ' !command "arg" '</b>
 <br>
 So for example:
+<blockquote style="border-left:2px grey solid;">
 <br>
 !anime "Mob Psycho 100"
 <br>
 Would give you the MAL page for Mob Psycho
-
+</blockquote>
 <hr>
 <h2>Instructions for Install</h2>
 If you want to download this source code for editing yourself, follow the steps below:
