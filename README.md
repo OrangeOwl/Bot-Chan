@@ -15,7 +15,7 @@ RUNNING COMMANDS:
 <b>All Commands are triggered with ' !command "arg" '</b>
 <br>
 So for example:
-<blockquote style="border-left:2px grey solid;">
+<blockquote style="border-left:2px grey solid;padding:0px; margin:0px;">
 <br>
 !anime "Mob Psycho 100"
 <br>
