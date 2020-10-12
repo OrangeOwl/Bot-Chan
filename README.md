@@ -19,9 +19,9 @@ So for example:
 <br>
 !anime "Mob Psycho 100"
 <br>
-Would give you the MAL page for Mob Psycho
 </blockquote>
-
+Would give you the MAL page for Mob Psycho
+<hr>
 <h2>Instructions for Install</h2>
 If you want to download this source code for editing yourself, follow the steps below:
 <ol>
