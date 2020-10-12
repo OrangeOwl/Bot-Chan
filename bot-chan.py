@@ -43,12 +43,12 @@ async def fortune(ctx):
 
 @bot.command()
 async def neko(ctx): 
-#used the same method as music
-	file = open("text/neko.txt") 
-	neko = file.read().split('\n') 
-	file.close() 
-	neko.remove("") 
-	await ctx.send(file=discord.File(random.choice(neko))) 
+	path ='./cat'
+	files = os.listdir(path)
+	index = random.randrange(0, len(files))
+	neko=files[index]
+	print(neko)
+	await ctx.send(file=discord.File("./cat/" + neko)) 
 	
 @bot.command()
 async def hit(ctx):
