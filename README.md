@@ -11,3 +11,24 @@ An Anime inspired Discord Bot created to perform various Anime related tasks inc
   <li>And with the source code available to you, even more commands can be added!</li>
 </ul> 
 
+<hr>
+## Instructions for Install
+If you want to download this source code for editing yourself, follow the steps below:
+<ol>
+  <li>Add a Bot to your Discord account and generate a token </li>
+  <ol>
+    <li>The link below is a great guide on how to do this</li>
+    <li>https://www.writebots.com/discord-bot-token/</li>
+  </ol>
+  <li>Extract these files onto your computer</li>
+  <li>Put your unqiue token into the bot-chan.py file, on the bottom line where it says bot.run</li>
+  <li>Open the folder "cat"</li>
+  <li>Throw all your favourite cat-girl pictures into this folder</li>
+  <li>Open the file "text/op.txt"</li>
+  <li>In this file, past all your favourite Anime song URLs (generally from Youtube)</li>
+  <ol>
+    <li>Place one URL per line, leave NO empty lines!</li>
+  </ol>
+  <li>You're all set! Now just run the python script and add the bot to your Anime Discord Server!</li>
+  
+## Or Simply Use This Bot as is
