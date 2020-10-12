@@ -21,6 +21,15 @@ So for example:
 <br>
 </blockquote>
 Would give you the MAL page for Mob Psycho
+<br>
+The Neko, Music, Hello and Ping commands do not require an "arg"
+<br>
+So a neko command for example would simply look like this:
+<blockquote style="border-left:2px grey solid;padding:0px; margin:0px;">
+<br>
+!neko
+<br>
+</blockquote>
 <hr>
 <h2>Instructions for Install</h2>
 If you want to download this source code for editing yourself, follow the steps below:
