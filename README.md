@@ -12,7 +12,7 @@ An Anime inspired Discord Bot created to perform various Anime related tasks inc
 </ul> 
 RUNNING COMMANDS:
 <br>
-<b>All Commands are triggered with ' !command + "arg" '</b>
+<b>All Commands are triggered with ' !command + "arg"<i>(If Applicable)</i> '</b>
 <br>
 So for example:
 <blockquote style="border-left:2px grey solid;padding:0px; margin:0px;">
@@ -22,7 +22,7 @@ So for example:
 </blockquote>
 Would give you the MAL page for Mob Psycho
 <br>
-The Neko, Music, Hello and Ping commands do not require an "arg"
+The Neko, News, Music, Hello and Ping commands do not require an "arg"
 <br>
 So a neko command for example would simply look like this:
 <blockquote style="border-left:2px grey solid;padding:0px; margin:0px;">
