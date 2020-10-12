@@ -12,7 +12,7 @@ An Anime inspired Discord Bot created to perform various Anime related tasks inc
 </ul> 
 RUNNING COMMANDS:
 <br>
-<b>All Commands are triggered with ' !command "arg" '</b>
+<b>All Commands are triggered with ' !command + "arg" '</b>
 <br>
 So for example:
 <blockquote style="border-left:2px grey solid;padding:0px; margin:0px;">
