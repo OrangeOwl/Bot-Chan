@@ -12,7 +12,7 @@ An Anime inspired Discord Bot created to perform various Anime related tasks inc
 </ul> 
 
 <hr>
-## Instructions for Install
+<h2>Instructions for Install</h2>
 If you want to download this source code for editing yourself, follow the steps below:
 <ol>
   <li>Add a Bot to your Discord account and generate a token </li>
@@ -30,5 +30,6 @@ If you want to download this source code for editing yourself, follow the steps 
     <li>Place one URL per line, leave NO empty lines!</li>
   </ol>
   <li>You're all set! Now just run the python script and add the bot to your Anime Discord Server!</li>
-</ol>  
-## Or Simply Use This Bot as is
+</ol> 
+
+<h2> Or Simply Use This Bot as is</h2>
