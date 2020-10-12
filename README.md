@@ -29,7 +29,8 @@ If you want to download this source code for editing yourself, follow the steps 
     <ol>
       <li>Place one URL per line, leave NO empty lines!</li>
     </ol>
-  <li>You're all set! Now just run the python script and add the bot to your Anime Discord Server!</li>
 </ol> 
+
+You're all set! Now just run the python script and add the bot to your Anime Discord Server!
 
 <h2> Or Simply Use This Bot as is</h2>
