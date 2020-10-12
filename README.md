@@ -10,6 +10,11 @@ An Anime inspired Discord Bot created to perform various Anime related tasks inc
   <li>Post the latest anime news from Crunchyrolls' News Feed</li>
   <li>And with the source code available to you, even more commands can be added!</li>
 </ul> 
+RUNNING COMMANDS:
+<b>All Commands are triggered with ' !<command> "arg" '</b>
+So for example:
+!anime "Mob Psycho 100"
+Would give you the MAL page for Mob Psycho
 
 <hr>
 <h2>Instructions for Install</h2>
