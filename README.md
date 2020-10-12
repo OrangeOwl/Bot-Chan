@@ -31,7 +31,7 @@ So a neko command for example would simply look like this:
 <br>
 </blockquote>
 <hr>
-<h2>Instructions for Install</h2>
+<h2>Instructions for Installing and Running it Yourself</h2>
 If you want to download this source code for editing yourself, follow the steps below:
 <ol>
   <li>Add a Bot to your Discord account and generate a token </li>
