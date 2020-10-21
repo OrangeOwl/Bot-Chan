@@ -45,7 +45,7 @@ If you want to download this source code for editing yourself, follow the steps 
   <li>Open the folder "cat"</li>
   <li>Throw all your favourite cat-girl pictures into this folder</li>
   <li>Open the file "text/op.txt"</li>
-  <li>In this file, past all your favourite Anime song URLs (generally from Youtube)</li>
+  <li>In this file, paste all your favourite Anime song URLs (generally from Youtube)</li>
     <ol>
       <li>Place one URL per line, leave NO empty lines!</li>
     </ol>
