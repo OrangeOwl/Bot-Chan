@@ -22,7 +22,7 @@ So for example:
 </blockquote>
 Would give you the MAL page for Mob Psycho
 <br>
-The hit (Hang In There), news, music, hello and ping commands do not require an "arg"
+The news, music, hello and ping commands do not require an "arg"
 <br>
 So a news command for example would simply look like this:
 <blockquote style="border-left:2px grey solid;padding:0px; margin:0px;">
@@ -30,6 +30,7 @@ So a news command for example would simply look like this:
 !neko
 <br>
 </blockquote>
+The other commands are just key-words that the bot listens for. For example, everytime someone mentions a catgirl, the bot will send a catgirl image to the server
 <hr>
 <h2>Instructions for Installing and Running it Yourself</h2>
 If you want to download this source code for editing yourself, follow the steps below:
