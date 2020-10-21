@@ -53,5 +53,3 @@ If you want to download this source code for editing yourself, follow the steps 
 
 You're all set! Now just run the python script and add the bot to your Anime Discord Server!
 
-<h2> Or Simply Use This Bot as is</h2>
-https://discord.com/oauth2/authorize?client_id=732073829387599963&scope=bot
