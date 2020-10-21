@@ -21,7 +21,50 @@ bot = commands.Bot(command_prefix = '!')
 @bot.event
 async def on_ready():
 	print('Bot-chan is ready')
-
+	
+#The on_message event lets the bot listen for certain key-words	
+@bot.event
+async def on_message(message):
+	if message.author == bot.user:
+		return
+	if ('69') in message.content:
+		await message.channel.send('Nice')
+		
+	#Getting it to listen to all the possible variants of Neko		
+	if ('neko') in message.content.lower():
+		path ='./cat'
+		files = os.listdir(path)
+		index = random.randrange(0, len(files))
+		neko = files[index]
+		print(neko)
+		await message.channel.send(file=discord.File("./cat/" + neko))
+	if ('cat-girl') in message.content.lower():
+		path ='./cat'
+		files = os.listdir(path)
+		index = random.randrange(0, len(files))
+		neko = files[index]
+		print(neko)
+		await message.channel.send(file=discord.File("./cat/" + neko))
+	if ('catgirl') in message.content.lower():
+		path ='./cat'
+		files = os.listdir(path)
+		index = random.randrange(0, len(files))
+		neko = files[index]
+		print(neko)
+		await message.channel.send(file=discord.File("./cat/" + neko))
+		
+	#fortune teller	
+	if ('fortune') in message.content.lower():
+		await message.channel.send("My prediction is...." + messages[random.randint(0, len(messages)-1)])
+	
+	#Hang in There
+	if ('hang in there') in message.content.lower():
+		print('HIT sent')
+		await message.channel.send(file=discord.File("hit/1.jpg"))
+		
+	#This line is necessary, otherwise it will play this event only when receiving messages and ignore the commands		
+	await bot.process_commands(message)
+	
 #COMMANDS: Asynchronous functions where the trigger word is the name of the function(ctx).
 #Then the function sends message with the ctx.send()
 
@@ -35,24 +78,6 @@ async def hello(ctx):
 async def ping(ctx):
 #I use an f string to issue a ping command
 	await ctx.send(f" Don't tell me what to do! Baka! [{round(bot.latency * 1000)}ms]")	
-	
-@bot.command()
-async def fortune(ctx):
-#Message grabs from the list (determining which item number to use by picking a random int between 0 and the length of the message -1)
-	await ctx.send("My prediction is...." + messages[random.randint(0, len(messages)-1)])
-
-@bot.command()
-async def neko(ctx): 
-	path ='./cat'
-	files = os.listdir(path)
-	index = random.randrange(0, len(files))
-	neko=files[index]
-	print(neko)
-	await ctx.send(file=discord.File("./cat/" + neko)) 
-	
-@bot.command()
-async def hit(ctx):
-	await ctx.send(file=discord.File("hit/1.jpg"))
 	
 @bot.command()
 async def news(ctx):
