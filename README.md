@@ -22,9 +22,9 @@ So for example:
 </blockquote>
 Would give you the MAL page for Mob Psycho
 <br>
-The neko, hit (Hang In There), news, music, hello and ping commands do not require an "arg"
+The hit (Hang In There), news, music, hello and ping commands do not require an "arg"
 <br>
-So a neko command for example would simply look like this:
+So a news command for example would simply look like this:
 <blockquote style="border-left:2px grey solid;padding:0px; margin:0px;">
 <br>
 !neko
