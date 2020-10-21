@@ -27,7 +27,7 @@ The news, music, hello and ping commands do not require an "arg"
 So a news command for example would simply look like this:
 <blockquote style="border-left:2px grey solid;padding:0px; margin:0px;">
 <br>
-!neko
+!news
 <br>
 </blockquote>
 The other commands are just key-words that the bot listens for. For example, everytime someone mentions a catgirl, the bot will send a catgirl image to the server
