@@ -58,13 +58,15 @@ async def on_message(message):
 		score = random.randint(0,10)
 		await message.channel.send('I rate your waifu ' + str(score) + '/10')
 		if score == 10:
-			await message.channel.send("Wow, she's way too Moe for you Senpai!")
+			await message.channel.send("Wow, she's way too moe for you Senpai!")
 		elif score == 9:
 			await message.channel.send("You actually have good taste? Go figure")	
 		elif score >= 6:
 			await message.channel.send("You're Waifu is pretty kawaii, I guess. Not that I care of course")	
 		elif score == 5:
 			await message.channel.send("An average waifu for an average weeaboo")
+		elif score == 4:
+			await message.channel.send("Your taste in waifus could use some work")	
 		elif score >= 1:
 			await message.channel.send("Your waifu sucks, and you should feel bad")	
 		elif score == 0:
@@ -75,13 +77,15 @@ async def on_message(message):
 		score = random.randint(0,10)
 		await message.channel.send('I rate your waifu ' + str(score) + '/10')
 		if score == 10:
-			await message.channel.send("Wow, she's way too Moe for you Senpai!")
+			await message.channel.send("Wow, she's way too moe for you Senpai!")
 		elif score == 9:
 			await message.channel.send("You actually have good taste? Go figure")	
 		elif score >= 6:
 			await message.channel.send("You're Waifu is pretty kawaii, I guess. Not that I care of course")	
 		elif score == 5:
 			await message.channel.send("An average waifu for an average weeaboo")
+		elif score == 4:
+			await message.channel.send("Your taste in waifus could use some work")	
 		elif score >= 1:
 			await message.channel.send("Your waifu sucks, and you should feel bad")	
 		elif score == 0:
