@@ -52,7 +52,43 @@ async def on_message(message):
 		neko = files[index]
 		print(neko)
 		await message.channel.send(file=discord.File("./cat/" + neko))
-		
+	#-----------------------------------------------------------------------
+	#Rating Waifus
+	if ('bot-chan rate my waifu') in message.content.lower():
+		score = random.randint(0,10)
+		await message.channel.send('I rate your waifu ' + str(score) + '/10')
+		if score == 10:
+			await message.channel.send("Wow, she's way too Moe for you Senpai!")
+		elif score == 9:
+			await message.channel.send("You actually have good taste? Go figure")	
+		elif score >= 6:
+			await message.channel.send("You're Waifu is pretty kawaii, I guess. Not that I care of course")	
+		elif score == 5:
+			await message.channel.send("An average waifu for an average weeaboo")
+		elif score >= 1:
+			await message.channel.send("Your waifu sucks, and you should feel bad")	
+		elif score == 0:
+			await message.channel.send("Baka! Only you could like someone like that!")
+		else:
+			await message.channel.send("An average waifu for an average weeaboo")		
+	if ('botchan rate my waifu') in message.content.lower():
+		score = random.randint(0,10)
+		await message.channel.send('I rate your waifu ' + str(score) + '/10')
+		if score == 10:
+			await message.channel.send("Wow, she's way too Moe for you Senpai!")
+		elif score == 9:
+			await message.channel.send("You actually have good taste? Go figure")	
+		elif score >= 6:
+			await message.channel.send("You're Waifu is pretty kawaii, I guess. Not that I care of course")	
+		elif score == 5:
+			await message.channel.send("An average waifu for an average weeaboo")
+		elif score >= 1:
+			await message.channel.send("Your waifu sucks, and you should feel bad")	
+		elif score == 0:
+			await message.channel.send("Baka! Only you could like someone like that!")
+		else:
+			await message.channel.send("An average waifu for an average weeaboo")		
+	#--------------------------------------------------------------------------		
 	#fortune teller	
 	if ('fortune') in message.content.lower():
 		await message.channel.send("My prediction is...." + messages[random.randint(0, len(messages)-1)])
