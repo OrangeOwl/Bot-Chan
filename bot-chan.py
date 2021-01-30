@@ -16,7 +16,6 @@ from News_Parser import *
 messages = ["Yes it's lookin' good, I bet my Waifu on it!", "Outlook looks great! ", "As I see it, it's lookin' to be as good as Mob Psycho 100 II", "Your future almost looks as bright as Senku from Dr. Stone...almost", "Your future looks better than the dishes in Food Wars", "NANI! It looks great!", "Are you destined for an Isekai? Because your future will be out of this world!", "I can’t make out a reply right now.", "The prediction is foggy, like the glasses of a sweaty weeb at an anime convention", "It’s about as uncertain as a third season of One Punch Man", "The outlook ain't very Sugoi", "big oof bruh, that's all I can say", "The outcome looks more trash than your taste in Anime", "Your chances of success are about as slim as you dating your favourite Waifu."]
 #COMMAND WORDS TO LISTEN FOR
 neko_words = ['neko', 'nekos', 'cat-girl', 'catgirl']
-usagi_words = ['usagi', 'usagis', 'bunnygirl', 'bunny-girl']
 waifu_rating = ['botchan rate my waifu', 'bot-chan rate my waifu', 'rate my waifu botchan', 'rate my waifu bot-chan']
 find_anime = ['botchan find my anime', 'bot-chan find my anime', 'find my anime', 'search anime','botchan search anime', 'bot-chan search anime' ]
 anime_shows = ['Gintama', 'JoJo', 'Some Harem Trash', 'Mob Psycho 100', 'Vtubers', 'Hentai', 'One Punch Man', 'Non Non Biyori', 'Yuru Camp' ]
@@ -47,13 +46,6 @@ async def on_message(message):
 		neko = files[index]
 		print(neko)
 		await message.channel.send(file=discord.File("./cat/" + neko))	
-	if any(x in message.content.lower() for x in usagi_words):
-		path ='./bunny'
-		files = os.listdir(path)
-		index = random.randrange(0, len(files))
-		usagi = files[index]
-		print(usagi)
-		await message.channel.send(file=discord.File("./bunny/" + usagi))
 	if (' trap') in message.content.lower():
 		path ='./trap'
 		files = os.listdir(path)
