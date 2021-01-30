@@ -133,19 +133,6 @@ async def on_message(message):
 			embed.add_field(name=TITLE3, value=link3, inline=False)
 			embed.set_footer(text="https://myanimelist.net/")
 			await message.channel.send(embed=embed)	
-			
-	if message.content.startswith('!anime'):
-		await message.channel.send('What show should I search for?')
-		def is_correct(m):
-			return m.author == message.author
-		try:
-			entry = await bot.wait_for('message', check=is_correct, timeout=13.0)
-		except asyncio.TimeoutError:
-			return await ctx.send("Sorry senpai, I can't wait that long")
-		anime_title = str(entry.content)
-		query = anime_title + " My Anime List"
-		for anime in search(query, tld="co.in", num=1, stop=1, pause=0.5):
-			await message.channel.send(anime)
 		
 	#This line is necessary, otherwise it will play this event only when receiving messages and ignore the commands		
 	await bot.process_commands(message)
@@ -183,6 +170,13 @@ async def CR(ctx, arg):
 	info = [s.replace(' ','-') for s in arg]
 	CR = ''.join(map(str, info))
 	await ctx.send("https://crunchyroll.com/" + CR.lower())
+	
+@bot.command()
+async def anime(ctx, *args):
+	title = args
+	query = str(title) + " My Anime List"
+	for anime in search(query, tld="co.in", num=1, stop=1, pause=0.5):
+		await ctx.send(anime)	
 
 @bot.command()
 async def music(ctx):
