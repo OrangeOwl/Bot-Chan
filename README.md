@@ -1,6 +1,7 @@
 # Bot-Chan
 
 An Anime inspired Discord Bot created to perform various Anime related tasks including:
+<br>
 <b> type !help for the list of commands once the bot is running </b>
 <ul>
   <li>Post random Anime Cat-Girl pictures from a selection of your choosing!</li> 
