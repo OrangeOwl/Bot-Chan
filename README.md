@@ -1,8 +1,6 @@
 # Bot-Chan
 
 An Anime inspired Discord Bot created to perform various Anime related tasks including:
-<br>
-<b> type !help for the list of commands once the bot is running </b>
 <ul>
   <li>Post random Anime Cat-Girl pictures from a selection of your choosing!</li> 
   <li>Post Anime OP's and ED's from a selection of your choosing!</li> 
@@ -11,6 +9,7 @@ An Anime inspired Discord Bot created to perform various Anime related tasks inc
   <li>Post the latest anime news from Crunchyrolls' News Feed</li>
   <li>And with the source code available to you, even more commands can be added!</li>
 </ul> 
+<b> type !help for the list of commands once the bot is running </b>
 <h2>Instructions for Installing and Running it Yourself</h2>
 If you want to download this source code for editing yourself, follow the steps below:
 <ol>
